@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/portfolio/welcome-section.css">
+    <title>portfolio</title>
+</head>
+<body>
+    <!-- nav start -->
+    <header class="only-header flex">
+
+        <button 
+        class="mobile-nav-toggle" 
+        aria-controls="nav-list"
+        aria-expanded="false">
+            <span class="sr-only"></span>
+        </button>
+
+     <nav>
+        <ul 
+        id="nav-list" 
+        data-visible="false" 
+        class="nav-list flex">
+    
+            <li>
+                <a href="#welcome-section" class="nav-link">About</a>
+            </li>
+            <li>
+                <a href="#work-section" class="nav-link">Work</a>
+            </li>
+            <li>
+                <a href="#contact-section" class="nav-link">Contact</a>
+            </li>
+        </ul>
+     </nav>
+    </header>
+    <!-- nav end -->
+
+    <!--welcome section start -->
+    <section class="welcome-section" id="welcome-section">
+            <h1 class="intro">Hello there, I am <strong><i>Paras</i></strong>.</h1>
+            <p class="subtitle">front-end dev</p>
+            <p class="about">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Ad voluptatem doloribus praesentium, temporibus corrupti tempore fuga repellendus vero quia soluta quos itaque, ducimus,
+                 fugiat quaerat ipsa vitae eveniet perferendis odit!</p>
+    </section>
+    <!-- welcome section end -->
+
+    <!-- work section start -->
+    <section class="container" id="work-section">
+            <h2 class="title">
+                Some Of My Projects
+            </h2>
+        <div class="grid">
+               <a href="#" class="project project-title">
+                <img src="/stuff/nft-preview-card-component-main/images/image-equilibrium.jpg" class="project-img" alt="project-img">
+                <p class="project-title">
+                    <span class="code"><</span>
+                    Project-Title
+                    <span class="code">/></span>
+                </p>
+               </a>
+               <a href="#" class="project project-title">
+                <img src="/stuff/nft-preview-card-component-main/images/image-equilibrium.jpg" class=" project-img" alt="project-img">
+                <p class="project-title">
+                    <span class="code"><</span>
+                    Project-Title
+                    <span class="code">/></span>
+                </p>
+               </a>
+               <a href="#" class="project project-title">
+                <img src="/stuff/nft-preview-card-component-main/images/image-equilibrium.jpg" class=" project-img" alt="project-img">
+                <p class="project-title">
+                    <span class="code"><</span>
+                    Project-Title
+                    <span class="code">/></span>
+                </p>
+               </a>
+              
+               </a>
+        </div>
+    </section>
+    <!-- work section end -->
+    <!-- contact section start -->
+    <section class="contact-section" id="contact-section">
+        <h2>Let's work together...</h2>
+        <p>How do you like your coffee?</p>
+        <div class="contact">
+     <a 
+            href="#"
+            target="_blank"
+            class="btn contact-details">
+            <i class="fa-brands fa-facebook"></i>
+            facebook
+     </a>
+    <a
+        id="profile-link"
+        href="https://github.com/freecodecamp"
+        target="_blank"
+        class="btn contact-details">
+        <i class="fab fa-github"></i> 
+        Github
+    </a>
+      <a 
+      href="mailto:parasharma200157@gmail.com" 
+      class="btn contact-details">
+      <i class="fas fa-at"></i>
+      Send mail to
+      </a>
+    </div>
+    </section>
+    <!-- contact section end -->
+    <!-- footer start -->
+    <footer>
+        <p> This is just a fake portfolio.</p>
+        <p>
+            &copy; Created for
+            <a href="https://www.freecodecamp.com/" target="_blank"
+              >freeCodeCamp <i class="fab fa-free-code-camp"></i
+            ></a>
+          </p>
+    </footer>
+    <!-- footer end -->
+
+</body>
+<script src="https://kit.fontawesome.com/cf1d0f492b.js" crossorigin="anonymous"></script>
+<script type="module" src="/portfolio/nav-toggle.js"></script>
